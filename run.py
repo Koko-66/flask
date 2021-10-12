@@ -1,5 +1,6 @@
-from flask import Flask, render_template  # import a class Flask from flask
 import os
+from flask import Flask, render_template  # import a class Flask from flask
+
 
 # create an instance of Flask class and store it in app variable (customary)
 app = Flask(__name__)
